@@ -11,7 +11,7 @@ import dagger.Provides;
 @Module
 public class AndroidModule {
     Context context;
-
+// Модуль — это класс, описывающий Dagger'у, как создавать различные объекты. Каждому создаваемому объекту соответствует один метод с аннотацией @Provides.
     public AndroidModule(Context context) {
         this.context = context;
     }

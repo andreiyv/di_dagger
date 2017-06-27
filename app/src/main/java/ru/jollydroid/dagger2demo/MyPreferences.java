@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 public class MyPreferences {
+// Хелпер для работы с Shared Preferences будет синглтоном, при инициализации нужен Context
     public static final String PREFS_NAME = "MyPrefsFile";
     private final SharedPreferences prefs;
 

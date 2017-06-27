@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import javax.inject.Inject;
-
+// http://jollydroid.ru/notebook/2016-04-11-Dependency-Injection-Dagger-2-Part-1.html
 public class MainActivity extends AppCompatActivity {
     private TextView hello;
 
